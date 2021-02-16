@@ -1,0 +1,6 @@
+Weight=int(input("Enter your weight:"))
+Unit=input("Enter the unit,P for Pounds and K for Kgs = ")
+if Unit=="K":
+    print("You are",round(int(Weight)*2.2), "Pounds")
+if Unit=="P":
+    print("You are",round(int(Weight)/2.2), "Kgs")
